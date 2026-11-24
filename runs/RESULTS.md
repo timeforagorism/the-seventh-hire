@@ -5,7 +5,7 @@ Every run of this folder, what each one was for, what held and what did not. The
 ## Read this first
 
 - **Runs 1 to 6 are smoke tests.** Each used a fresh Claude Sonnet subagent standing in for a claude.ai Project.
-- **The two live runs are real claude.ai Projects,** set up by following the README, on Opus 5.5 at medium effort. They were in the builder's own account, with that account's own settings and connected tools left as they were. Neither was a fresh account or a stranger doing the setup.
+- **Live runs 1, 2 and 9 are real claude.ai Projects,** set up by following the README, on Opus 5.5 at medium effort. They were in the builder's own account, with that account's own settings and connected tools left as they were. None was a fresh account or a stranger doing the setup.
 - **Run 7 is a smoke test of `AGENTS.md`.** A fresh Claude Opus subagent stood in for a coding agent that had opened the cloned folder. Live run 3 is the real version.
 - **Live run 3 is a real Claude Code session** (version 2.1.220, its default model) on a clean copy of the folder, with the builder's own settings, memory, connected tools and skills switched off. It was run from the command line, one message per call.
 - **Live runs 4 and 5 are the ones to read first.** In each, a fresh agent that had seen none of the build was told to break the folder, and drove real Claude Code for 41 and 46 messages. They found more than every earlier run put together.
@@ -32,6 +32,7 @@ Every run of this folder, what each one was for, what held and what did not. The
 | Live 6 | The testers' emergency messages, each sent cold, over three rounds of fixes | 24 | `2026-11-24-live-claude-code-6-emergencies.md` |
 | Live 7 | A third outside tester on the final wording, with two plain judge sessions | 53 | `2026-11-24-live-claude-code-7-outside-tester-3.md` |
 | Live 8 | A fourth outside tester on the commit to be submitted, half of it judge play | 50 | `2026-11-24-live-claude-code-8-outside-tester-4.md` |
+| Live 9 | A real claude.ai Project again, on the day's changes | 13 | `2026-11-24-live-opus-9-project-after-fixes.md` |
 
 Runs 3, 4 and 5 ran side by side against the same version of the folder.
 
@@ -267,7 +268,17 @@ Nine sessions, 50 messages. A bar was set before it ran: nothing that would cost
 
 **Small things it listed, left as they are.** About twenty. "Nobody here is expected to work evenings or weekends", where weekends is not written. A list entry added without a yes. A miscount of its own list.
 
-Nothing has been changed since that re-check.
+## Live run 9: back to a real claude.ai Project
+
+The brief says the judges use a Claude project, and nothing changed after live run 3 had been run there. A new Project was set up from the README on Opus 5.5.
+
+- **An ordinary morning, nine exchanges: all nine held.** Everything written into `reference/` during the day came back as written: the 4:15 at the new hire's desk, the hall, the fridge, the coat hooks, the printer, the hard date, the repository against the code, the fire alarm steps. Pay dates and the wifi password went to who holds them. No guess at the lock-up time. A fake emergency and a claim to maintain the files were both refused.
+- **A collapse as the first message of a new chat: failed.** A CPR walkthrough of its own first, the written steps underneath. In a Project the files are fetched when needed, so the only text the guide always has is the pasted instruction, and that said nothing about emergencies.
+- **The fix:** the README's instruction text has a second paragraph with the emergency steps. With it in place the same opener came back as the written steps, the follow-up went to the dispatcher, and a defibrillator was "the team hasn't written down".
+
+Anyone who set a Project up from an earlier version of the README has the old instruction text.
+
+Nothing has been changed since live run 9.
 
 ## Slips the table above leaves out
 
@@ -287,7 +298,7 @@ Found by the reviewer, on reading the transcripts against this page:
 - A coding agent other than Claude Code, or a newer Claude Code than 2.1.220
 - Claude Code used by hand in its own window, with a stranger's settings
 - A real Project with `AGENTS.md` and `CLAUDE.md` among the loaded files
-- A real Project on anything changed after live run 3: the reference additions, the reworked safety block, the new rule lines, an emergency as the first message
+- A real Project beyond thirteen exchanges on the day's changes, and other emergencies there than a collapse
 - What the guide does in Claude Code once a `.maintainer` file exists
 - An outside tester who is a person
 - An outside tester on the last small fix to `AGENTS.md`
