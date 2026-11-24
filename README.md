@@ -35,6 +35,8 @@ About three minutes.
    ```
 4. **Start a new chat inside the project** and say hello as the new hire.
 
+**Opening the clone in Claude Code or another coding agent?** No setup. `AGENTS.md` tells it to be the guide, so say hello the same way. That route has had the hardest testing of all: three outside testers, 140 messages between them.
+
 ## What to ask first
 
 Start where a new hire would:
@@ -50,7 +52,7 @@ Then try the three things it was built for.
 - **Ask who to go to.** Try "Andre sits right there, can I just ask him?" The answer is no, and it will tell you why.
 - **Tell it you're overwhelmed.** Then, a message later, say you're fine and ask for everything at once. Watch how much it gives you.
 
-Before you finish, say `show me my list`. That is what you would carry to your mentor at 4:15.
+Before you finish, say `show me my list`. That is what you would go through with your mentor at 4:15.
 
 ## What it is built not to do
 
@@ -59,17 +61,17 @@ Before you finish, say `show me my list`. That is what you would carry to your m
 - Send you to the client's staff, or round your mentor.
 - Paste the handbook. Ask for the whole day and you get an outline.
 
-Built not to is the honest wording. In eight test runs it never made up a fact about the team when asked for one directly, including when the same question was sent twice. It did add small things of its own, a wrong time in one early run and the odd piece of advice nobody wrote down, and the results page lists every one.
+Built not to is the honest wording. Asked straight for a number, a date, a password or a policy, it has never made one up, in fourteen runs. It does add small things of its own around a right answer: a clause, a reassurance, the odd piece of advice nobody wrote down. In Claude Code, an emergency is where it is weakest. It answers before it has read the notes, and three outside testers each got it to say something nobody wrote. The steps now sit in the one file it always has, and a short check after the last fix held. Treat that part as the least proven. The results page lists all of it.
 
 ## How it was tested
 
-Eight runs. Six used a stand-in for a Claude project, each with a different new hire: calm then flooded, experienced, first job out of school, someone who works alone, someone who wants every step spelled out, and one played the way a judge might. Two were real claude.ai Projects set up from this README, on Opus 5.5: one with the twelve files, thirteen exchanges, and one with every file in the repo loaded, test transcripts included.
+Fourteen runs. Six used a stand-in for a Claude project, each with a different new hire: calm then flooded, experienced, first job out of school, someone who works alone, someone who wants every step spelled out, and one played the way a judge might. Two were real claude.ai Projects set up from this README, on Opus 5.5: one with the twelve files, thirteen exchanges, and one with every file in the repo loaded, test transcripts included. Two more tested `AGENTS.md`: a stand-in for a coding agent opening the cloned folder, then real Claude Code on a clean copy, fourteen exchanges. In the last two a fresh agent that had seen none of the build was told to break the folder and drove real Claude Code itself, 41 messages and then 46 after the fixes. Another run re-sent the testers' emergency messages cold, 24 of them over three rounds of fixes, and a third outside tester then spent 53 messages on the result.
 
-Every transcript is in `runs/`, and `runs/RESULTS.md` says what held, what slipped and what was changed. Read the top of that file before you trust any of it. The builder's own session played the new hire in every run, and the real Projects were in the builder's own account.
+Every transcript is in `runs/`, and `runs/RESULTS.md` says what held, what slipped and what was changed. Read the top of that file before you trust any of it. The builder's own session played the new hire in every run but the three outside-tester ones, and every run was in the builder's own account.
 
 ## Using it for your own team
 
-Keep `identity.md` and `rules.md`, change the names in them, and replace the nine reference files with your own. The one that pays back fastest is the last one: ask your most recent hire to write down what they had to ask in their first week.
+Keep `identity.md` and `rules.md`, change the names in them, and replace the nine reference files with your own. `AGENTS.md` repeats the emergency steps so a coding agent has them before it has read anything, so change those too. To work on the files with a coding agent, put an empty file named `.maintainer` in the folder first. `AGENTS.md` stands down when it finds one, and Git ignores it. The one that pays back fastest is the last one: ask your most recent hire to write down what they had to ask in their first week.
 
 ## What is in the folder
 
@@ -87,4 +89,5 @@ Keep `identity.md` and `rules.md`, change the names in them, and replace the nin
 | `reference/how-we-work.md` | The habits and rules, each with its reason |
 | `reference/the-project.md` | What the project is, where it stands, and the words you'll hear |
 | `reference/questions-answered.md` | Every question the last new hire asked in her first week, and who answered |
+| `AGENTS.md` | Tells a coding agent that opens the folder to be the guide, and to stay the guide. `CLAUDE.md` points Claude Code at it |
 | `runs/` | Test transcripts and results. Not part of what the guide knows |

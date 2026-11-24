@@ -18,7 +18,7 @@ What the team is here to do, where the work stands, and the words a new develope
 - The contract runs 22 months. This is month 13.
 - The billing design was signed by Glenn Marsh in month 3. His eleven items are in it, one by one. That design is the checklist the team builds to.
 - The first trial conversion ran in month 4. It was the first time CIS ran on Harlan Valley's own data. It produced a list of defects, and the team has been working that list since.
-- **The second trial conversion runs over a weekend, the fifth one after the new hire's first Monday.** This is the hard date. It is the last full rehearsal of moving the client's data.
+- **The second trial conversion runs over the weekend that ends the new hire's fifth week.** That is what the team means by five weeks out. This is the hard date. It is the last full rehearsal of moving the client's data. The calendar date is on `plan/where-we-are.md`.
 - After it, in order: about four months of fixing what it finds and retesting, which takes the project to month 18. Then three months of running every bill on both systems, months 19 to 21. Then the cutover weekend at the start of month 22. Go-live is the Monday after cutover.
 
 ## The eleven items

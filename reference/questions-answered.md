@@ -15,6 +15,12 @@ Yes, it's Harlan Valley's. We chip in for milk, there's a jar on top of the frid
 **Where does everyone eat?**
 Most people bring something. There's a cafeteria on the first floor, open 11:30 to 1:30, takes cards, vendors are allowed. On Thursdays a few of us walk to the deli on Mill Street. (Joanne)
 
+**Where do I put my coat?**
+Hooks on the wall inside the door of 2B. There are no lockers. (Andre)
+
+**Do I need my own mug?**
+Bring one if you like. The plain white ones in the break room cupboard are anyone's. (Andre)
+
 **Do I need a parking permit?**
 No. North lot, rows marked V, free. Do not park in the south lot. (Walt, who found out the hard way)
 
@@ -40,6 +46,9 @@ Vendor badges open the lobby gates from 7:00 to 6:30 on weekdays. Outside that, 
 
 **What happens if nobody is in the lobby to meet me?**
 Tell the security desk you're with Ostrander billing. They have the project room's extension and they call up. This happened to me on my second day and it took four minutes. (Dana)
+
+**Is there a printer?**
+Not for us. Nothing on this project gets printed. If something really has to be, Joanne can get it done on the billing floor. (Joanne)
 
 ## Wednesday
 

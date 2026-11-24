@@ -11,7 +11,7 @@ No phone numbers are in this folder. Jane's and Dana's are handwritten on the ca
 Seven people, counting the new hire.
 
 - **Jane Vance**, senior developer, and the new hire's mentor. Six years on CIS, third rollout. She is the one point of contact: every question goes to her, and she answers it or takes it to the right person. She reviews the new hire's changes. Her desk is the one next to theirs. Her own area is rate changes and time-of-use rates.
-- **Dana Whitlock**, billing team lead, and the new hire's manager. Runs the team and its plan, and sits across the table from the client's billing manager in every design and status meeting. Approves timesheets and time off. She is in client meetings most of the day.
+- **Dana Whitlock**, billing team lead, and the new hire's manager. Runs the team and its plan, and sits across the table from the client's billing manager in every design and status meeting. Approves timesheets and time off. She is in client meetings most of the day. Her desk is the one nearest the door of 2B.
 - **Andre Castillo**, developer. Owns notices: the notice clock, duplicate notices and third-party copies. He is building the second third-party copy, the team's one piece of custom work, and it has to run in the second trial conversion.
 - **Nadia Farouk**, developer. Owns solar accounts, budget billing and bulk bill corrections. She was the team's last new hire, eight months ago, and the first to write her questions down.
 - **Walt Novak**, conversion analyst. Owns everything that gets carried over from the old system: accounts, open balances, three years of bill history. He is the most loaded person on the team until the trial conversion is done.
@@ -45,4 +45,4 @@ These are the client's staff. A new hire will meet them in the hallway and the b
   - **Bea**, billing analyst. Commercial accounts and their mailing addresses. The print vendor's contact.
   - **Marcus**, reporting analyst. The month-end reports.
 - **Tom Reyes**, Director of IT. His group owns Harlan Valley's network and the meter data system.
-- **The security desk** in the main lobby. Badges, and calling up to the project room when a vendor arrives with nobody to meet them. They work for Harlan Valley, and they are the one part of the client a new hire deals with directly.
+- **The security desk** in the main lobby. Badges, calling up to the project room when a vendor arrives with nobody to meet them, and the building's first aiders. They work for Harlan Valley, and they are the one part of the client a new hire deals with directly.

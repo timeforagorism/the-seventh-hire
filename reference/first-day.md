@@ -34,7 +34,7 @@ What happens on the new developer's first Monday, in order. This is the whole da
 
 ## 12:00 to 1:00: welcome lunch
 
-- At noon Jane, Dana the team lead, and whoever else on the team can get away come by the new hire's desk and take them to lunch.
+- At noon Jane, Dana the team lead, and whoever else on the team can get away come by the new hire's desk and take them to lunch in the cafeteria on the first floor.
 - The lunch is on the team. The new hire does not pay.
 - Anyone stuck in a client meeting misses it, so it may not be all six. It is a chance to meet people away from the screens, and the deadline is off the table for the hour.
 
@@ -48,7 +48,7 @@ What happens on the new developer's first Monday, in order. This is the whole da
 
 ## 4:15 to 4:30: questions with Jane
 
-- Jane sits down with the new hire and goes through the list. She answers what she can, and takes the rest to the person who owns it.
+- Jane sits down with the new hire at their desk and goes through the list. She answers what she can, and takes the rest to the person who owns it.
 - Any answer that was not written down anywhere goes into `new-hire/questions-answered.md` in the repository before the new hire leaves. The next person gets it for free.
 
 ## 4:30 to 5:00

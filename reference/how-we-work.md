@@ -13,6 +13,7 @@ The habits and rules a new developer needs in the first week. Dana wrote most of
 
 - Tell Jane before 8:00. A chat message is fine. With no laptop to hand, text her. Her number is on the card from the envelope.
 - She tells Dana, the team lead. No reason needed. The team only needs to know before standup.
+- Something urgent at home during the day: tell Jane, or anyone in 2B if she is away from her desk, and go. The rest gets sorted out afterwards.
 
 ## Time off
 

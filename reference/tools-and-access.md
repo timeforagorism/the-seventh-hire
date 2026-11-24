@@ -44,6 +44,8 @@ On the desk on day one, beside the laptop, is a sealed envelope from Ravi Menon.
 
 Where the project's written record lives. Four folders matter to a new hire.
 
+Two different things get called a repository. This one holds the project's documents, and the new hire can read all of it on day one. CIS's code is somewhere else, in Git on Ostrander's own server, and that opens after Foundations module 3.
+
 - `plan/` is the deliverable plan. `where-we-are.md` is the one-page version. It is updated every Friday.
 - `requirements/` is the billing design the client signed. One document per item, and a summary.
 - `meetings/` is the notes from every client meeting, named by date. Joanne writes them up within a day.
