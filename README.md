@@ -35,7 +35,7 @@ About three minutes.
    ```
 4. **Start a new chat inside the project** and say hello as the new hire.
 
-**Opening the clone in Claude Code or another coding agent?** No setup. `AGENTS.md` tells it to be the guide, so say hello the same way. That route has had the hardest testing of all: three outside testers, 140 messages between them.
+**Opening the clone in Claude Code or another coding agent?** No setup. `AGENTS.md` tells it to be the guide, so say hello the same way. That route has had the hardest testing of all: four outside testers, 190 messages between them.
 
 ## What to ask first
 
@@ -45,9 +45,9 @@ Start where a new hire would:
 Hi, it's my first day. I just got to my desk. What do I do first?
 ```
 
-Then try the three things it was built for.
+Then try what it was built for.
 
-- **Ask for something that isn't written down.** A pay date, the wifi password, your manager's phone number, what the vacation policy is. It should say the team hasn't written it down, say where it goes, and offer to put it on your list.
+- **Ask for something that isn't written down.** A pay date, the wifi password, your manager's phone number, what the vacation policy is. It should say the team hasn't written it down and say who has it or where it lives. When it is one for your mentor, it offers to put it on your list.
 - **Ask something small.** Where the bathroom is, whether the coffee is free, what the product is called. Those came from Nadia, the last new hire, who wrote down every question from her first week.
 - **Ask who to go to.** Try "Andre sits right there, can I just ask him?" The answer is no, and it will tell you why.
 - **Tell it you're overwhelmed.** Then, a message later, say you're fine and ask for everything at once. Watch how much it gives you.
@@ -61,13 +61,13 @@ Before you finish, say `show me my list`. That is what you would go through with
 - Send you to the client's staff, or round your mentor.
 - Paste the handbook. Ask for the whole day and you get an outline.
 
-Built not to is the honest wording. Asked straight for a number, a date, a password or a policy, it has never made one up, in fourteen runs. It does add small things of its own around a right answer: a clause, a reassurance, the odd piece of advice nobody wrote down. In Claude Code, an emergency is where it is weakest. It answers before it has read the notes, and three outside testers each got it to say something nobody wrote. The steps now sit in the one file it always has, and a short check after the last fix held. Treat that part as the least proven. The results page lists all of it.
+Built not to is the honest wording. Asked straight for a number, a date, a password or a policy, it has never made one up, in fifteen runs. It does add small things of its own around a right answer: a clause, a reassurance, the odd piece of advice nobody wrote down. In Claude Code, an emergency is where it is weakest. It answers before it has read the notes, and outside testers got it to say something nobody wrote in four runs out of four, less each time. The steps now sit in the one file it always has, and a short check after the last fix held. Treat that part as the least proven. The results page lists all of it.
 
 ## How it was tested
 
-Fourteen runs. Six used a stand-in for a Claude project, each with a different new hire: calm then flooded, experienced, first job out of school, someone who works alone, someone who wants every step spelled out, and one played the way a judge might. Two were real claude.ai Projects set up from this README, on Opus 5.5: one with the twelve files, thirteen exchanges, and one with every file in the repo loaded, test transcripts included. Two more tested `AGENTS.md`: a stand-in for a coding agent opening the cloned folder, then real Claude Code on a clean copy, fourteen exchanges. In the last two a fresh agent that had seen none of the build was told to break the folder and drove real Claude Code itself, 41 messages and then 46 after the fixes. Another run re-sent the testers' emergency messages cold, 24 of them over three rounds of fixes, and a third outside tester then spent 53 messages on the result.
+Fifteen runs. Six used a stand-in for a Claude project, each with a different new hire: calm then flooded, experienced, first job out of school, someone who works alone, someone who wants every step spelled out, and one played the way a judge might. Two were real claude.ai Projects set up from this README, on Opus 5.5: one with the twelve files, thirteen exchanges, and one with every file in the repo loaded, test transcripts included. Two more tested `AGENTS.md`: a stand-in for a coding agent opening the cloned folder, then real Claude Code on a clean copy, fourteen exchanges. In the last two a fresh agent that had seen none of the build was told to break the folder and drove real Claude Code itself, 41 messages and then 46 after the fixes. Another run re-sent the testers' emergency messages cold, 24 of them over three rounds of fixes, and two more outside testers then spent 53 and 50 messages on the result. The last one played three full judge sessions, 97 questions, and got no wrong answer.
 
-Every transcript is in `runs/`, and `runs/RESULTS.md` says what held, what slipped and what was changed. Read the top of that file before you trust any of it. The builder's own session played the new hire in every run but the three outside-tester ones, and every run was in the builder's own account.
+Every transcript is in `runs/`, and `runs/RESULTS.md` says what held, what slipped and what was changed. Read the top of that file before you trust any of it. The builder's own session played the new hire in every run but the four outside-tester ones, and every run was in the builder's own account.
 
 ## Using it for your own team
 
